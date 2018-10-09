@@ -1,0 +1,96 @@
+html {
+  font-size: 16px;
+}
+
+#mainimg {
+  height: 1.5rem;
+  width: 13rem;
+  margin-left: 1.2rem;
+}
+
+#navbarNav {
+  font-family: Amatic SC;
+  font-size: 2rem;
+}
+
+#abt a:hover {
+  color: white;
+  transition: 500ms ease-in 100ms;
+}
+
+#abt a:active {
+  color: white;
+}
+
+/* END OF HEADER */
+
+.jumbotron {
+  background-image: url('https://i.imgur.com/3xskJOC.jpg');
+  background-size: cover;
+  height: 50rem;
+  margin: 0;
+  padding-top: 12rem;
+}
+
+.display-4 {
+  font-weight: 600;
+  font-family: Amatic SC;
+}
+
+.lead {
+  font-size: 2rem;
+  font-family: Amatic SC;
+}
+
+/* MID */
+
+.mid {
+  background-color:#1A4876;
+}
+
+.mid h3{
+  color: white;
+  text-align: center;
+  font-family: Amatic SC;
+  font-size: 3rem;
+  padding-top: 1rem;
+}
+
+.mid p {
+  color: white;
+  font-size: 1.8rem;
+  text-align: center;
+  font-family: Amatic SC;
+}
+
+video {
+  width: 23rem;
+  position: relative;
+}
+
+.jfexplain {
+  text-align: center;
+}
+
+.jfexplain span {
+  color: white;
+  font-family: sans-serif;
+}
+
+.hgbexplain {
+  text-align: center;
+}
+
+.hgbexplain span {
+  color: white;
+  font-family: sans-serif;
+}
+
+.tikesexplain {
+  text-align: center;
+}
+
+.tikesexplain span {
+  color: white;
+  font-family: sans-serif;
+}
