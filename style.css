@@ -13,13 +13,17 @@ html {
   font-size: 2rem;
 }
 
+#abt {
+  font-weight: 700;
+}
+
 #abt a:hover {
   color: white;
   transition: 500ms ease-in 100ms;
 }
 
 #abt a:active {
-  color: white;
+  color: black;
 }
 
 /* END OF HEADER */
