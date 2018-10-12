@@ -80,7 +80,7 @@ html {
   color: white;
 }
 
-/* CAROUSEL */
+/* CAROUSEL - ABOUT */
 
 .oversee {
   display: flex;
@@ -89,12 +89,21 @@ html {
 }
 
 .carousel {
-  width: 75rem;
+  width: 50rem;;
 }
 
 .carousel img {
-  height: 50rem;
-  width: 60rem;
+  height: 30rem;
+}
+
+.aboutme {
+  background-color: #1A4876;
+}
+
+.aboutme p {
+  color: white;
+  margin: 0;
+  padding: 0;
 }
 
 /* MID */
