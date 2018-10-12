@@ -46,6 +46,57 @@ html {
   font-family: Amatic SC;
 }
 
+/* ABOUT ME
+
+.about {
+  background-color: #1A4876;
+}
+
+.aboutheader {
+  text-align: center;
+  background-color: #1A4876;
+  font-family: Amatic SC; 
+  font-size: 3rem;
+  color: white;
+}
+
+.aboutimg {
+  height: 70rem;
+  width: 100%;
+}
+
+.about p {
+  padding: 0;
+  margin: 0;
+  background-color: #1A4876;
+}
+*/
+
+.abouttext {
+  background-color: #1A4876;
+  font-size: 3rem;
+  text-align: center;
+  font-family: Amatic SC;
+  color: white;
+}
+
+/* CAROUSEL */
+
+.oversee {
+  display: flex;
+  justify-content: center;
+  background-color: #1A4876;
+}
+
+.carousel {
+  width: 75rem;
+}
+
+.carousel img {
+  height: 50rem;
+  width: 60rem;
+}
+
 /* MID */
 
 .mid {
