@@ -89,7 +89,7 @@ html {
 }
 
 .carousel {
-  width: 50rem;;
+  width: 43rem;;
 }
 
 .carousel img {
@@ -98,17 +98,21 @@ html {
 
 .aboutme {
   background-color: #1A4876;
+  padding-top: 2rem;
 }
 
 .aboutme p {
   color: white;
   margin: 0;
   padding: 0;
+  text-align: center;
+  padding: 2rem 2rem;
 }
 
 /* MID */
 
 .mid {
+  border-top: 1px solid white;
   background-color:#1A4876;
 }
 
@@ -157,4 +161,15 @@ video {
 .tikesexplain span {
   color: white;
   font-family: sans-serif;
+}
+
+.galmore {
+  padding: 2rem 0rem;
+  background-color: #1A4876;
+  display: flex;
+  justify-content: center;
+}
+
+.galmore button {
+  width: 50rem;
 }

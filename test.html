@@ -14,6 +14,7 @@
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./gallery.html">
 </head>
 
 <body>
@@ -27,13 +28,13 @@
       <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active" id="abt">
-            <a class="nav-link" href="#mid">About Me<span class="sr-only"></span></a>
+            <a class="nav-link" href="#abouttext">About Me<span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item" id="abt">
+            <a class="nav-link" href="#mid">Gallery</a>
           </li>
           <li class="nav-item" id="abt">
             <a class="nav-link" href="#">Contact</a>
-          </li>
-          <li class="nav-item" id="abt">
-            <a class="nav-link" href="#">Gallery</a>
           </li>
         </ul>
       </div>
@@ -48,7 +49,7 @@
       And also a bit more about my personal life and who I am</p>
   </div>
 
-  <div class="abouttext">
+  <div class="abouttext" id="abouttext">
     <span>About Me</span>
   </div>
 
@@ -66,7 +67,7 @@
           <img class="d-block w-100" src=".\resources\images\mainimg.jpg" alt="First slide">
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src=".\resources\images\mainpic.jpg" alt="Second slide">
+          <img class="d-block w-100" src=".\resources\images\pol.jpg" alt="Second slide">
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src=".\resources\images\mainimg.jpg" alt="Third slide">
@@ -84,15 +85,10 @@
   </div>
 
   <div class="aboutme">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend ex nec sapien ultricies tristique. Aliquam facilisis diam et justo rhoncus viverra. Nam et nunc sed nulla condimentum tempus. Vivamus faucibus dapibus urna. Ut non viverra lectus. Cras in congue magna. Quisque id orci efficitur, tincidunt urna nec, bibendum felis. Nam justo mi, malesuada at dolor vitae, iaculis sollicitudin arcu.
-
-        Morbi et nulla fringilla, pellentesque mauris id, lobortis quam. Donec at lorem faucibus, rhoncus arcu sed, faucibus justo. Curabitur aliquam ligula fermentum ultrices pharetra. Mauris ultricies dignissim velit. Phasellus nec sagittis arcu, ac molestie arcu. Phasellus libero mi, imperdiet nec purus eu, molestie fringilla tortor. Etiam interdum ex in condimentum condimentum. Etiam in convallis erat. Nulla facilisi. Fusce aliquet lacus risus, viverra congue eros aliquam vitae. Fusce nisl mauris, sodales eget augue vel, placerat facilisis nibh.
-        
-        Vivamus ac pretium ligula. Sed tempor enim est, sed iaculis dolor aliquam eu. Nullam quis ornare mauris, viverra iaculis libero. In hac habitasse platea dictumst. Etiam augue arcu, mattis vitae neque nec, semper tristique felis. Integer nibh velit, blandit non convallis non, ornare at felis. Sed gravida est mi, eu iaculis mauris fringilla ac.
-        
-        Nam consectetur sem luctus tempus ultricies. Vivamus gravida orci et ligula malesuada suscipit. Suspendisse sollicitudin risus sed convallis laoreet. Vestibulum sed malesuada dui. Mauris vitae risus ex. Etiam lobortis massa eget tincidunt tincidunt. Nunc tellus arcu, commodo sit amet justo quis, ullamcorper consequat nunc. Quisque ut vulputate massa, quis feugiat sem. Nunc iaculis vestibulum urna quis ornare. In scelerisque, dui ut varius congue, sapien libero sollicitudin lectus, in eleifend massa dolor vel nisl. Aliquam lorem velit, lobortis a nisi ut, placerat varius eros. Donec nibh enim, volutpat ut mauris ut, commodo dictum libero. Pellentesque tortor neque, pharetra eu mattis eget, laoreet eu magna.
-        
-        Donec vel ornare mi. Curabitur mauris ipsum, accumsan quis rhoncus ut, tempus sed diam. In hac habitasse platea dictumst. Integer lacus est, ultrices id nisi sed, iaculis mattis nibh. Nam porttitor odio nec tortor malesuada, non convallis massa ultricies. Maecenas id turpis euismod, ultricies ipsum ac, luctus ex. Donec aliquam, orci non pharetra feugiat, nunc neque tincidunt enim, ac laoreet tortor libero sit amet lacus. Cras in sapien elit. Nunc mattis faucibus neque ac vulputate. Mauris auctor cursus velit quis suscipit. Maecenas eleifend, nibh sit amet consectetur tincidunt, nibh purus lobortis erat, vel varius tortor eros quis dui. Nunc facilisis, magna quis tristique condimentum, neque quam euismod ante, eget varius risus augue nec neque. Sed laoreet orci id augue hendrerit, vitae sollicitudin purus vulputate. Morbi eget porta justo.</p>
+    <p>I was born in Staten Island, New York. I moved a lot as a kid, within New York, even moving to Miami for a year
+      then back to New York. While I was practically raised in New York, I moved to Toronto when I was about twelve
+      years old. I'd say from then to now being twenty-two, I've done the most important growing in my life in Toronto.</p>
+    <p></p>
   </div>
 
   <!--GALLERY-->
@@ -106,7 +102,8 @@
           <video src=".\videos\John Farnworth - Mt. Everest - Daily Planet.mp4" poster=".\resources\images\JFWEVEREST.jpg"
             controls></video>
           <div class="jfexplain">
-            <span>
+            <button id="galbtn" type="button" class="btn btn-outline-light">Click to read more about this story</button>
+            <span id="galexp">
               Watch as multi-guinness world record holder and professional football freestyler, John Farnworth takes on
               a journey of a lifetime to the highest point on planet earth, as he attempts to commemorate his late
               grandfather.
@@ -117,7 +114,8 @@
           <video src=".\videos\Harlem Globetrotters - Rube Goldberg Daily Planet.mp4" poster=".\resources\images\HGB-RBG.jpg"
             controls></video>
           <div class="hgbexplain">
-            <span>
+            <button id="galbtn1" type="button" class="btn btn-outline-light">Click to read more about this story</button>
+            <span id="galexp1">
               The Harlem Globetrotters are a staple in freestlye basketball entertainment. But watch as one of their
               members, 'Buckets' interacts with an amazing Rube Goldberg machine from Georgia Tech's - Industrial
               Design team.
@@ -128,7 +126,8 @@
           <video src=".\videos\Little Tikes - Flite Test - Daily Planet.mp4" poster=".\resources\images\TIKESFLITETEST.jpg"
             controls></video>
           <div class="tikesexplain">
-            <span>
+            <button id="galbtn2" type="button" class="btn btn-outline-light">Click to read more about this story</button>
+            <span id="galexp2">
               Ahh, Little Tikes. All the 90's baby's will get a kick out of this one. Witness as the YouTube team
               'FliteTest' - embarks on a journey to turn our baby toy car into a full-fledged plane. They definetely
               hit a few bumps on the road, or should I say the air? But will they succeed?
@@ -137,9 +136,13 @@
         </div>
       </div>
     </div>
-    <script type="text/javascript" src="./main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"></script>
+  </div>
+  <div class="galmore">
+    <a target="blank" href="https://www.facebook.com"><button type="button" class="btn btn-outline-warning">Gallery</button></a>
+  </div>
+  <script type="text/javascript" src="./main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
