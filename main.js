@@ -31,5 +31,22 @@ $(document).ready(function() {
         $(this).remove();
     });
     $('#galexp2').toggle();
+
+    // Slide Up
+    $(window).scroll(function() {
+        if ($(this).scrollToggle() > 800) {
+            $('.oversee, .aboutme').slideUp("10000", function () {
+            });  
+        }
+        else if ($(this).scrollTop() > 720) {
+            $('.oversee, .aboutme').show;
+        } else {};
+    });
+
+    $(window).on('scroll', function() {
+        console.log( $(this).scrollTop() );
+    });
+    
+
 });
 
