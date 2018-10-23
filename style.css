@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-size: 16px;
 }
@@ -31,7 +36,8 @@ html {
 .jumbotron {
   background-image: url('https://i.imgur.com/3xskJOC.jpg');
   background-size: cover;
-  height: 50rem;
+  background-position: right 0rem bottom 0rem;
+  height: 38rem;
   margin: 0;
   padding-top: 12rem;
 }
@@ -39,11 +45,13 @@ html {
 .display-4 {
   font-weight: 600;
   font-family: Amatic SC;
+  color: white;
 }
 
 .lead {
   font-size: 2rem;
   font-family: Amatic SC;
+  color: white;
 }
 
 /* ABOUT ME
@@ -89,7 +97,7 @@ html {
 }
 
 .carousel {
-  width: 43rem;;
+  width: 43rem;
 }
 
 .carousel img {
@@ -113,10 +121,10 @@ html {
 
 .mid {
   border-top: 1px solid white;
-  background-color:#1A4876;
+  background-color: #1A4876;
 }
 
-.mid h3{
+.mid h3 {
   color: white;
   text-align: center;
   font-family: Amatic SC;
@@ -173,3 +181,81 @@ video {
 .galmore button {
   width: 50rem;
 }
+
+/* GALLERY */
+
+#othernav {
+  border-bottom: 1px solid white;
+}
+
+.galcontainer {
+  background-color: #1A4876;
+  height: 100rem;
+}
+
+.welcomeheader {
+  text-align: center;
+  font-family: Amatic SC;
+}
+
+.welcomeheader h3 {
+  font-size: 5rem;
+  color: white;
+}
+
+.gallery video {
+  margin: 0rem 0rem 0rem 1rem;
+}
+
+.galexp {
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+  font-family: Amatic SC;
+  margin-left: 1rem;
+  padding: 0rem 0rem 2rem 2rem;
+}
+
+/* Top 10 */
+
+.top10header {
+  text-align: center;
+  font-family: Amatic SC;
+  color: white;
+}
+
+.top10header h3 {
+  font-size: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
