@@ -44,3 +44,8 @@ $(document).ready(function () {
     });
     */
 });
+
+var ounces = 0;
+while (ounces <= 8) {
+    console.log('Ounces:' + ounces);
+}
